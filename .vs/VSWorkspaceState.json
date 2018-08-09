@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\BacklogTracker.Interfaces"
+    "\\BacklogTracker",
+    "\\BacklogTracker.Interfaces",
+    "\\BacklogTracker.Interfaces\\BacklogTracker.Interfaces"
   ],
-  "SelectedNode": "\\BacklogTracker.Interfaces\\BacklogTracker.Interfaces.sln",
+  "SelectedNode": "\\BacklogTracker.Interfaces\\BacklogTracker.Interfaces\\IGameProviderIdentity.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{646D1A62-9E28-4FEF-BB12-C6F47E349349}</ProjectGuid>
+    <ProjectGuid>{A835895C-236F-49F1-B2A3-66594B5B2EA9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BacklogTracker.Interfaces</RootNamespace>

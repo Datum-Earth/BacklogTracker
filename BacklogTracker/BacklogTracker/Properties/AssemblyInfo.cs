@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BacklogTracker.Interfaces")]
+[assembly: AssemblyTitle("BacklogTracker")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BacklogTracker.Interfaces")]
+[assembly: AssemblyProduct("BacklogTracker")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("646d1a62-9e28-4fef-bb12-c6f47e349349")]
+[assembly: Guid("873b0ab2-8073-4155-bef3-456257c6dc8a")]
 
 // Version information for an assembly consists of the following four values:
 //
