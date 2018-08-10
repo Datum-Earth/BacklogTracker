@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A835895C-236F-49F1-B2A3-66594B5B2EA9}</ProjectGuid>
+    <ProjectGuid>{873B0AB2-8073-4155-BEF3-456257C6DC8A}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BacklogTracker.Interfaces</RootNamespace>
-    <AssemblyName>BacklogTracker.Interfaces</AssemblyName>
+    <RootNamespace>BacklogTracker</RootNamespace>
+    <AssemblyName>BacklogTracker</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,12 +23,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -40,14 +45,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IGameIdentity.cs" />
-    <Compile Include="IGameProviderIdentity.cs" />
-    <Compile Include="Base\IMetadata.cs" />
-    <Compile Include="IUser.cs" />
+    <Compile Include="Objects\Base\BaseRecord.cs" />
+    <Compile Include="Objects\CompletionTime\CompletionTimeRecord.cs" />
+    <Compile Include="Objects\CompletionTime\CompletionTime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Intermediaries\" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BacklogTracker.Interfaces\BacklogTracker.Interfaces.csproj">
+      <Project>{a835895c-236f-49f1-b2a3-66594b5b2ea9}</Project>
+      <Name>BacklogTracker.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Extractions\" />
+    <Folder Include="Factories\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

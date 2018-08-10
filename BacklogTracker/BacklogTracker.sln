@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogTracker", "BacklogTracker\BacklogTracker.csproj", "{873B0AB2-8073-4155-BEF3-456257C6DC8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogTracker.Loader", "BacklogTracker\BacklogTracker.Loader.csproj", "{873B0AB2-8073-4155-BEF3-456257C6DC8A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogTracker.Interfaces", "BacklogTracker.Interfaces\BacklogTracker.Interfaces.csproj", "{A835895C-236F-49F1-B2A3-66594B5B2EA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogTracker.Helpers", "BacklogTracker.Helpers\BacklogTracker.Helpers.csproj", "{D4F1A428-6E78-4AB6-B721-BF75CCEB49C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A835895C-236F-49F1-B2A3-66594B5B2EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A835895C-236F-49F1-B2A3-66594B5B2EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A835895C-236F-49F1-B2A3-66594B5B2EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F1A428-6E78-4AB6-B721-BF75CCEB49C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F1A428-6E78-4AB6-B721-BF75CCEB49C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F1A428-6E78-4AB6-B721-BF75CCEB49C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F1A428-6E78-4AB6-B721-BF75CCEB49C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

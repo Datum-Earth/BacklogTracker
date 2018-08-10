@@ -8,7 +8,7 @@ namespace BacklogTracker.Interfaces
 {
     public interface IGameProviderIdentity
     {
-        object Id { get; set; }
+        object ProviderId { get; set; }
         string Gamertag { get; set; }
         IEnumerable<object> CustomFields { get; set; }
     }
