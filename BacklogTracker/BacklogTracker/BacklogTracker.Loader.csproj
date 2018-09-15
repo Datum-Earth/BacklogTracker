@@ -140,7 +140,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dependencies\HLTB\Helpers\HLTBHelper.cs" />
-    <Compile Include="Dependencies\HLTB\Objects\HLTBRecord.cs" />
+    <Compile Include="Dependencies\HLTB\POCO\HLTBCategory.cs" />
+    <Compile Include="Dependencies\HLTB\POCO\HLTBRecord.cs" />
+    <Compile Include="Dependencies\HLTB\POCO\HLTBSubCategory.cs" />
     <Compile Include="Dependencies\HLTB\Worker\HLTBWorker.cs" />
     <Compile Include="Objects\Base\BaseRecord.cs" />
     <Compile Include="Objects\CompletionTime\CompletionTimeRecord.cs" />

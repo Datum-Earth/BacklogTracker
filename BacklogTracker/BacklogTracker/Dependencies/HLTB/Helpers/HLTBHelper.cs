@@ -10,6 +10,12 @@ namespace BacklogTracker.Dependencies.HLTB.Helpers
 {
     internal class HLTBHelper
     {
+        public string FindGameName(HtmlDocument document)
+        {
+            var name = document.DocumentNode.QuerySelector(".profile_header.shadow_text").InnerText.Replace("\n", "");
+
+            return name;
+        }
 
         public IEnumerable<HtmlNode> FindMainTables(HtmlDocument document)
         {

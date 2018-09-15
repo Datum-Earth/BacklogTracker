@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogTracker.Interfaces",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogTracker.Helpers", "BacklogTracker.Helpers\BacklogTracker.Helpers.csproj", "{D4F1A428-6E78-4AB6-B721-BF75CCEB49C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogTracker.Tests", "BacklogTracker.Tests\BacklogTracker.Tests.csproj", "{BD5AE3D2-0A0D-49A8-982C-1B22B8E9927C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D4F1A428-6E78-4AB6-B721-BF75CCEB49C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4F1A428-6E78-4AB6-B721-BF75CCEB49C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4F1A428-6E78-4AB6-B721-BF75CCEB49C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD5AE3D2-0A0D-49A8-982C-1B22B8E9927C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5AE3D2-0A0D-49A8-982C-1B22B8E9927C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD5AE3D2-0A0D-49A8-982C-1B22B8E9927C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD5AE3D2-0A0D-49A8-982C-1B22B8E9927C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
