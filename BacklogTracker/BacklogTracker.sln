@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogTracker.Loader", "Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogTracker.Interfaces", "BacklogTracker.Interfaces\BacklogTracker.Interfaces.csproj", "{A835895C-236F-49F1-B2A3-66594B5B2EA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogTracker.Helpers", "BacklogTracker.Helpers\BacklogTracker.Helpers.csproj", "{D4F1A428-6E78-4AB6-B721-BF75CCEB49C6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogTracker.Tests", "BacklogTracker.Tests\BacklogTracker.Tests.csproj", "{BD5AE3D2-0A0D-49A8-982C-1B22B8E9927C}"
 EndProject
 Global
@@ -25,10 +23,6 @@ Global
 		{A835895C-236F-49F1-B2A3-66594B5B2EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A835895C-236F-49F1-B2A3-66594B5B2EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A835895C-236F-49F1-B2A3-66594B5B2EA9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D4F1A428-6E78-4AB6-B721-BF75CCEB49C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4F1A428-6E78-4AB6-B721-BF75CCEB49C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4F1A428-6E78-4AB6-B721-BF75CCEB49C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4F1A428-6E78-4AB6-B721-BF75CCEB49C6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD5AE3D2-0A0D-49A8-982C-1B22B8E9927C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BD5AE3D2-0A0D-49A8-982C-1B22B8E9927C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD5AE3D2-0A0D-49A8-982C-1B22B8E9927C}.Release|Any CPU.ActiveCfg = Release|Any CPU
