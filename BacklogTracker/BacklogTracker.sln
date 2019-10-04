@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogTracker.Loader", "BacklogTracker\BacklogTracker.Loader.csproj", "{873B0AB2-8073-4155-BEF3-456257C6DC8A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contexts", "Contexts", "{150F72CD-FC0C-4DCF-9B07-8B4037A84471}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogTracker.Interfaces", "BacklogTracker.Interfaces\BacklogTracker.Interfaces.csproj", "{A835895C-236F-49F1-B2A3-66594B5B2EA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BacklogTracker.Query", "BacklogTracker.Query\BacklogTracker.Query.csproj", "{4120CB58-12F8-47F1-897E-3534CC73534C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogTracker.Tests", "BacklogTracker.Tests\BacklogTracker.Tests.csproj", "{BD5AE3D2-0A0D-49A8-982C-1B22B8E9927C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASUSGamesDB", "ASUS-GamesDB\ASUSGamesDB.csproj", "{FC51A519-1122-48C5-B6AA-2E4DBF7EABFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BacklogTracker.Console", "BacklogTracker.Console\BacklogTracker.Console.csproj", "{BD83B22C-8135-4031-AE4F-0A4E8AA78483}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,21 +17,24 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{873B0AB2-8073-4155-BEF3-456257C6DC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{873B0AB2-8073-4155-BEF3-456257C6DC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{873B0AB2-8073-4155-BEF3-456257C6DC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{873B0AB2-8073-4155-BEF3-456257C6DC8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A835895C-236F-49F1-B2A3-66594B5B2EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A835895C-236F-49F1-B2A3-66594B5B2EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A835895C-236F-49F1-B2A3-66594B5B2EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A835895C-236F-49F1-B2A3-66594B5B2EA9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD5AE3D2-0A0D-49A8-982C-1B22B8E9927C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD5AE3D2-0A0D-49A8-982C-1B22B8E9927C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD5AE3D2-0A0D-49A8-982C-1B22B8E9927C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD5AE3D2-0A0D-49A8-982C-1B22B8E9927C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4120CB58-12F8-47F1-897E-3534CC73534C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4120CB58-12F8-47F1-897E-3534CC73534C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4120CB58-12F8-47F1-897E-3534CC73534C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4120CB58-12F8-47F1-897E-3534CC73534C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC51A519-1122-48C5-B6AA-2E4DBF7EABFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC51A519-1122-48C5-B6AA-2E4DBF7EABFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC51A519-1122-48C5-B6AA-2E4DBF7EABFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC51A519-1122-48C5-B6AA-2E4DBF7EABFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD83B22C-8135-4031-AE4F-0A4E8AA78483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD83B22C-8135-4031-AE4F-0A4E8AA78483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD83B22C-8135-4031-AE4F-0A4E8AA78483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD83B22C-8135-4031-AE4F-0A4E8AA78483}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC51A519-1122-48C5-B6AA-2E4DBF7EABFE} = {150F72CD-FC0C-4DCF-9B07-8B4037A84471}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB0FA6A5-3304-44D8-95CD-38E91CC16FA2}
